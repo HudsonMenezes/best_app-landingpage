@@ -185,6 +185,7 @@ header label{
     transform-origin: top;
     transform: scaleY(0);
     opacity: 0;
+    transition: .2s linear;
   }
 
   header .navbar a{
@@ -200,6 +201,22 @@ header label{
 
   header input:checked ~ label::before{
     content: '\f00d';
+  }
+
+  .home{
+    flex-flow: column-reverse;
+  }
+
+  .home .image img{
+    width: 100%;
+  }
+
+  .home .content h3{
+    font-size: 3.6rem;
+  }
+
+  .home .content p{
+    font-size: 1.5rem;
   }
 }
 
