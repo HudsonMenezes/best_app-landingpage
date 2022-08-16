@@ -53,6 +53,16 @@ section{
   transform: scale(1.1);
 }
 
+.heading{
+  text-align: center;
+  background: var(--gradient);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
 header{
   position: fixed;
   top: 0;
@@ -136,6 +146,7 @@ header label{
   color: #666;
   padding: 1rem 0;
 }
+
 
 
 
